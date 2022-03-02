@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u /tmp/file_0.html ../tmp/file_0.html
+cp -u $'\n.html' ..
