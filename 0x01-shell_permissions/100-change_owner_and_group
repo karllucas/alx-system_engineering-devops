@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:school .
+chown -R vincent:school .
