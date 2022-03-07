@@ -1,0 +1,2 @@
+#!/bin/bash
+sort [[:alpha:]upper] | wc -l /etc/ssh/sshd_config
