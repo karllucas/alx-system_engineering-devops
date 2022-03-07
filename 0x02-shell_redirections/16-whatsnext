@@ -1,2 +1,2 @@
 #!/bin/bash
-sort --sort=root | tail +3 | wc -l /etc/passwd
+grep -A 3 "root" /etc/passwd
