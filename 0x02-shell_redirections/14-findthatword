@@ -1,2 +1,2 @@
 #!/bin/bash
-grep --include=root | wc -l /etc/passwd
+grep "root" /etc/passwd
