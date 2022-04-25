@@ -19,59 +19,59 @@
 <tbody>
 <tr data-sourcepos="15:1-15:214">
 <td data-sourcepos="15:2-15:124"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x00-shell_basics"><code>0x00-shell_basics</code></a></td>
-<td data-sourcepos="15:126-15:213">It aims to learn about basics commands, navigation, files and directories in <strong>Shell</strong></td>
+<td data-sourcepos="15:126-15:213">Teaches one the basic commands, navigation, files and directories in <strong>Shell</strong></td>
 </tr>
 <tr data-sourcepos="16:1-16:246">
 <td data-sourcepos="16:2-16:134"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x01-shell_permissions"><code>0x01-shell_permissions</code></a></td>
-<td data-sourcepos="16:136-16:245">It aims to learn about man pages, permissions (owner, group and other) of files and directories in <strong>Shell</strong></td>
+<td data-sourcepos="16:136-16:245">Teaches one about man pages, permissions (owner, group and other) of files and directories in <strong>Shell</strong></td>
 </tr>
 <tr data-sourcepos="17:1-17:273">
 <td data-sourcepos="17:2-17:136"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x02-shell_redirections"><code>0x02-shell_redirections</code></a></td>
-<td data-sourcepos="17:138-17:272">It aims to learn about how to handle standard input and output and how to combine commands and filters with redirections in <strong>Shell</strong></td>
+<td data-sourcepos="17:138-17:272">Teaches one how to handle standard input, output, and to combine commands and filters with redirections in <strong>Shell</strong></td>
 </tr>
 <tr data-sourcepos="18:1-18:330">
 <td data-sourcepos="18:2-18:151"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x03-shell_variables_expansions"><code>0x03-shell_variable_expansions</code></a></td>
-<td data-sourcepos="18:153-18:329">It aims to learn about alias builtin, help builtin, local, global and reserved variables (PATH, HOME and PS1), special parameters <code>$?</code> and single an double quotes in <strong>Shell</strong></td>
+<td data-sourcepos="18:153-18:329">Teaches one about alias builtin, help builtin, local, global and reserved variables (PATH, HOME and PS1), special parameters such as <code>$?</code>, single, and double quotes in <strong>Shell</strong></td>
 </tr>
 <tr data-sourcepos="19:1-19:324">
 <td data-sourcepos="19:2-19:156"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing"><code>0x04-loops_conditions_and_parsing</code></a></td>
-<td data-sourcepos="19:158-19:323">It aims to learn about loops (<code>while</code>, <code>until</code> and <code>for</code>), condition statements (<code>if</code>, <code>else</code>, <code>elif</code> and <code>case</code>), shebangs and how to create SSH keys with <strong>Bash</strong></td>
+<td data-sourcepos="19:158-19:323">Teaches one about loops (<code>while</code>, <code>do...while</code>, and <code>for</code>), condition statements (<code>if</code>, <code>else</code>, <code>elseif</code>, and <code>case</code>). Also, how to create SSH keys such as <em>a Personalized Access Token</em> with <strong>Git Bash</strong></td>
 </tr>
 <tr data-sourcepos="20:1-20:264">
 <td data-sourcepos="20:2-20:142"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x05-processes_and_signals"><code>0x05-processes_and_signals</code></a></td>
-<td data-sourcepos="20:144-20:263">It aims to learn about PID, processes and commands that handles them (<code>ps</code>, <code>pgrep</code>, <code>pkill</code>, <code>kill</code>, etc) in <strong>Bash</strong></td>
+<td data-sourcepos="20:144-20:263">Teaches one about PID, processes and commands that handle them (<code>ps</code>, <code>pgrep</code>, <code>pkill</code>, <code>kill</code>, etc) with <strong>Git Bash</strong></td>
 </tr>
 <tr data-sourcepos="21:1-21:208">
 <td data-sourcepos="21:2-21:148"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x06-regular_expressions/README.md"><code>0x06-regular_expressions</code></a></td>
-<td data-sourcepos="21:150-21:207">It aims to learn about how to build a regular expression</td>
+<td data-sourcepos="21:150-21:207">Teaches one how to build a regular expression</td>
 </tr>
 <tr data-sourcepos="22:1-22:244">
 <td data-sourcepos="22:2-22:144"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x07-networking_basics/README.md"><code>0x07-networking_basics</code></a></td>
-<td data-sourcepos="22:146-22:243">It aims to learn about what is an OSI model, LAN, WAN, IP address, localhost, subnet and TCP/UDP</td>
+<td data-sourcepos="22:146-22:243">Teaches one about an OSI model, LAN, WAN, IP address, localhost, subnet and TCP/UDP</td>
 </tr>
 <tr data-sourcepos="23:1-23:300">
 <td data-sourcepos="23:2-23:148"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x08-networking_basics_2/README.md"><code>0x08-networking_basics_2</code></a></td>
-<td data-sourcepos="23:150-23:299">It aims to learn about what is localhost/127.0.0.1, what is 0.0.0.0, what is <code>/etc/hosts</code> and how to display the machine's active network interfaces</td>
+<td data-sourcepos="23:150-23:299">Teaches one about local server urls such as localhost/127.0.0.1. Also 0.0.0.0, and the meaning of the path: <code>/etc/hosts</code>, and how to display the machine's active network interfaces</td>
 </tr>
 <tr data-sourcepos="24:1-24:221">
 <td data-sourcepos="24:2-24:160"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x09-web_infrastructure_design/README.md"><code>0x09-web_infrastructure_design</code></a></td>
-<td data-sourcepos="24:162-24:220">It aims to learn about how to design a Web Infrastructure</td>
+<td data-sourcepos="24:162-24:220">Teaches one how to design a Web Infrastructure</td>
 </tr>
 <tr data-sourcepos="25:1-25:233">
 <td data-sourcepos="25:2-25:158"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x0A-configuration_management/README.md"><code>0x0A-configuration_management</code></a></td>
-<td data-sourcepos="25:160-25:232">It aims to learn about server configuration management using <strong>Puppet</strong></td>
+<td data-sourcepos="25:160-25:232">Teaches one about server configuration management using <strong>Puppet</strong></td>
 </tr>
 <tr data-sourcepos="26:1-26:237">
 <td data-sourcepos="26:2-26:116"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x0B-ssh/README.md"><code>0x0B-ssh</code></a></td>
-<td data-sourcepos="26:118-26:236">It aims to learn about what is a SSH, how to create an SSH RSA key pair and how to connect to a remote host using SSH</td>
+<td data-sourcepos="26:118-26:236">Teaches one about SSH, and how to create an SSH RSA key pair. Also, how to connect to a remote host using SSH</td>
 </tr>
 <tr data-sourcepos="27:1-27:235">
 <td data-sourcepos="27:2-27:130"><a href="https://github.com/karllucas/alx-system_engineering-devops/edit/master/0x0C-web_server/README.md"><code>0x0C-web_server</code></a></td>
-<td data-sourcepos="27:132-27:234">It aims to learn about the roles of web servers and their processes (parent and child), and DNS roles</td>
+<td data-sourcepos="27:132-27:234">Teaches one about the roles of web servers, their processes (parent and child), and DNS roles</td>
 </tr>
 <tr data-sourcepos="28:1-28:192">
 <td data-sourcepos="28:2-28:142"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0"><code>0x0D-web_stack_debugging_0</code></a></td>
-<td data-sourcepos="28:144-28:191">It aims to learn about how to debug a webstack</td>
+<td data-sourcepos="28:144-28:191">Teaches one how to debug a webstack</td>
 </tr>
 </tbody>
 </table>
