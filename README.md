@@ -73,6 +73,10 @@
 <td data-sourcepos="28:2-28:142"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0"><code>0x0D-web_stack_debugging_0</code></a></td>
 <td data-sourcepos="28:144-28:191">Teaches one how to debug a webstack</td>
 </tr>
+<tr data-sourcepos="29:1-29:193">
+<td data-sourcepos="29:2-29:144"><a href="https://github.com/karllucas/alx-system_engineering-devops/tree/master/command_line_for_the_win"><code>command_line_for_the_win</code></a></td>
+<td data-sourcepos="28:144-28:191"><a href="https://cmdchallenge.com/">CMD CHALLENGE</a> is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!</td>
+</tr>
 </tbody>
 </table>
 <h2 dir="auto"><a id="user-content-author-african-codernorman" class="anchor" aria-hidden="true" href="#author-african-codernorman"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Author:</h2>
