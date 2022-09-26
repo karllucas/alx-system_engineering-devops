@@ -13,11 +13,11 @@ sudo apt-get install -y nginx
 
 sudo mkdir -p /var/www/html
 sudo touch /var/www/html/index.html
+sudo touch /var/www/html/404.html
 chmod 666 /var/www/html/index.html
-chmod 666 /var/www/html/index.html
+chmod 666 /var/www/html/404.html
 echo "Hello World!" > /var/www/html/index.html
-touch /var/www/html/404.html
-echo "Ceci n'est pas une page" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
 
 printf %s "server {
     listen 80 default_server;
