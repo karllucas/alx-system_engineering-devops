@@ -20,6 +20,7 @@ printf %s "global
     maxconn 2000
     user haproxy
     group haproxy
+    
 defaults
     log     global
     mode    http
@@ -30,19 +31,17 @@ defaults
     timeout connect  5000
     timeout client  10000
     timeout server  10000
-listen hbnb
-    bind 0.0.0.0:80
-    mode http
-    stats enable
-    stats uri /haproxy?stats
-    option httpclose
-    option forwardfor
-frontend haproxynode
-    bind ip_address:443 ssl crt
-    mode http
-    default_backend backendnodes
-backend backendnodes
-    balance roundrobin
+    
+listen appname 0.0.0.0:80
+	mode http
+	stats enable
+	stats uri /haproxy?stats
+	stats realm Strictly\ Private
+	stats auth A_Username:YourPassword
+	stats auth Another_User:passwd
+	balance roundrobin
+	option httpclose
+	option forwardfor
     server 21812-web-01 35.170.73.199:80 check
     server 21812-web-02 44.200.22.149:80 check
 " >> /etc/haproxy/haproxy.cfg
