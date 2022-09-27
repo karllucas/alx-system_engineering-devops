@@ -10,12 +10,16 @@ sudo apt-get update
 sudo apt-get install -y nginx
 
 sudo mkdir /etc/nginx/html
-sudo touch /etc/nginx/html/index.html
-chmod 600 index.html
+
+sudo touch /etc/nginx/html/index.htm
+chmod 666 index.html
 echo "Hello World!" > /etc/nginx/html/index.html
-touch /etc/nginx/html/404.html
+
+sudo touch /etc/nginx/html/404.html
+chmod 666 /etc/nginx/html/404.html
 echo "Ceci n'est pas une page" > /etc/nginx/html/404.html
 
+chmod 666 /etc/nginx/sites-available/default
 printf %s "server {
     listen 80;
     listen [::]:80 default_server;
@@ -31,4 +35,4 @@ printf %s "server {
     }
 }" > /etc/nginx/sites-available/default
 
-service nginx restart
+sudo service nginx restart
