@@ -15,22 +15,23 @@ sudo touch /etc/haproxy/haproxy.cfg
 sudo mv /etc/haproxy/haproxy.cfg{,.original}
 
 sudo chmod 666 /etc/haproxy/haproxy.cfg
-printf %s "global
-    log 127.0.0.1 local0 notice
-    maxconn 2000
-    user haproxy
-    group haproxy
+printf %s "
+global
+	log 127.0.0.1 local0 notice
+	maxconn 2000
+	user haproxy
+	group haproxy
     
 defaults
-    log     global
-    mode    http
-    option  httplog
-    option  dontlognull
-    retries 3
-    option redispatch
-    timeout connect  5000
-    timeout client  10000
-    timeout server  10000
+	log     global
+	mode    http
+	option  httplog
+	option  dontlognull
+	retries 3
+	option redispatch
+	timeout connect  5000
+	timeout client  10000
+	timeout server  10000
     
 listen appname 0.0.0.0:80
 	mode http
@@ -42,8 +43,8 @@ listen appname 0.0.0.0:80
 	balance roundrobin
 	option httpclose
 	option forwardfor
-    server 21812-web-01 35.170.73.199:80 check
-    server 21812-web-02 44.200.22.149:80 check
+        server 21812-web-01 35.170.73.199:80 check
+        server 21812-web-02 44.200.22.149:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
