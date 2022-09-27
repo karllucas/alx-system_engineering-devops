@@ -35,9 +35,14 @@ listen hbnb
     mode http
     stats enable
     stats uri /haproxy?stats
-    balance roundrobin
     option httpclose
     option forwardfor
+frontend haproxynode
+    bind ip_address:443 ssl crt
+    mode http
+    default_backend backendnodes
+backend backendnodes
+    balance roundrobin
     server 21812-web-01 35.170.73.199:80 check
     server 21812-web-02 44.200.22.149:80 check
 " >> /etc/haproxy/haproxy.cfg
