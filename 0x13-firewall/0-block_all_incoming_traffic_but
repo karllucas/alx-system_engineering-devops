@@ -1,0 +1,20 @@
+# Installs ufw on ubuntu
+sudo apt-get install ufw -y
+
+# Checks ufw status
+sudo ufw status
+
+# Set a ufw default policy
+sudo ufw default allow outgoing 
+sudo ufw default deny incoming 
+
+# Allow incoming from tcp ports: 22, 443, and 80
+sudo ufw allow 22/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+
+# Check ufw status in verbose
+sudo ufw status verbose
+
+# Enable ufw on system startup
+sudo ufw enable
