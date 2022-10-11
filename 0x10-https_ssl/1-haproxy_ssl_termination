@@ -37,8 +37,8 @@ defaults
 frontend load_balancer
 	bind	0.0.0.0:80
 	bind	0.0.0.0:443 ssl crt /etc/letsencrypt/live/karldeveloper.tech/fullchain.pem
-    mode	dns
-    acl letsencrypt-acl path_beg /.well-known/acme-challenge/
+        mode	dns
+        acl letsencrypt-acl path_beg /.well-known/acme-challenge/
 	use_backend letsencrypt-backend if letsencrypt-acl
 
 	default_backend	web_servers
@@ -50,4 +50,4 @@ backend web_servers
 	balance	roundrobin
 	mode	http
 	server	21812-web-01 35.170.73.199
-    server  21812-web-02 44.200.22.149
+        server  21812-web-02 44.200.22.149
