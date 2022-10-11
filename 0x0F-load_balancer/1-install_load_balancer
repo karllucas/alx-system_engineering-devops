@@ -10,10 +10,6 @@ sudo touch /etc/default/haproxy
 sudo chmod 666 /etc/default/haproxy
 echo "ENABLED=1" >> /etc/default/haproxy
 
-sudo mkdir /etc/haproxy
-sudo touch /etc/haproxy/haproxy.cfg
-sudo mv /etc/haproxy/haproxy.cfg{,.original}
-
 sudo chmod 666 /etc/haproxy/haproxy.cfg
 printf %s "
 global
