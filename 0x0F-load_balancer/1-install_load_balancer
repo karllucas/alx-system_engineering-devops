@@ -41,6 +41,8 @@ listen appname 0.0.0.0:80
 	option forwardfor
         server 21812-web-01 35.170.73.199:80 check
         server 21812-web-02 44.200.22.149:80 check
+	
+preserve_hostname: true
 " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
