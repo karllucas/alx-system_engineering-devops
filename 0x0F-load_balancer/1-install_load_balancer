@@ -8,7 +8,7 @@ sudo apt-get install haproxy
 
 sudo touch /etc/default/haproxy
 sudo chmod 666 /etc/default/haproxy
-echo "ENABLED=1" >> /etc/default/haproxy
+echo "ENABLED=1" > /etc/default/haproxy
 
 sudo chmod 666 /etc/haproxy/haproxy.cfg
 printf %s "
@@ -43,6 +43,6 @@ listen appname 0.0.0.0:80
         server 21812-web-02 44.200.22.149:80 check
 	
 preserve_hostname: true
-" >> /etc/haproxy/haproxy.cfg
+" > /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
