@@ -18,7 +18,7 @@ sudo touch /var/www/html/404.html
 chmod 666 /var/www/html/index.html
 chmod 666 /var/www/html/404.html
 
-echo "Hello World!" > /var/www/html/index.html
+echo "Holberton School" > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 
 chmod 666 /etc/nginx/sites-available/default
@@ -29,7 +29,7 @@ printf %s "server {
     root   /var/www/html;
     index  index.html index.htm;
     location /redirect_me {
-        return 301 http://cuberule.com/;
+        return 301 http://karldeveloper.tech/;
     }
     error_page 404 /404.html;
     location /404 {
