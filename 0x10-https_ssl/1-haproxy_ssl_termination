@@ -9,8 +9,8 @@ global
 	daemon
 
 	# Default SSL material locations
-	ca-base /etc/ssl/certs
-	crt-base /etc/ssl/private
+	ca-base /etc/letsencrypt/live/karldeveloper.tech/fullchain.pem
+	crt-base //etc/letsencrypt/live/karldeveloper.tech/private.pem
 
 	# Default ciphers to use on SSL-enabled listening sockets.
 	# For more information, see ciphers(1SSL). This list is from:
@@ -37,7 +37,7 @@ defaults
 frontend load_balancer
 	bind	0.0.0.0:80
 	bind	0.0.0.0:443 ssl crt /etc/letsencrypt/live/karldeveloper.tech/fullchain.pem
-        mode	dns
+        mode	http
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/
 	use_backend letsencrypt-backend if letsencrypt-acl
 
@@ -49,5 +49,5 @@ backend letsencrypt-backend
 backend web_servers
 	balance	roundrobin
 	mode	http
-	server	21812-web-01 35.170.73.199
-        server  21812-web-02 44.200.22.149
+	server	21812-web-01.karldeveloper.tech 35.170.73.199 check
+        server  21812-web-02.karldeveloper.tech 44.200.22.149 check
