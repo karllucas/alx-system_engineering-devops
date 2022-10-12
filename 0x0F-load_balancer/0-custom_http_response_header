@@ -25,7 +25,7 @@ chmod 666 /etc/nginx/sites-available/default
 printf %s "server {
     listen 80 default_server;
     listen [::]:80 default_server;
-    add_header X-Served-By $hostname;
+    add_header X-Served-By $HOSTNAME;
     root   /var/www/html;
     index  index.html index.htm;
     location /redirect_me {
